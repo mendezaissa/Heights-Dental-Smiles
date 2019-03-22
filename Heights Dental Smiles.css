@@ -2,3 +2,14 @@
 {
 	margin-left: 900px;
 }
+
+.btn-outline-success
+{
+	color: white;
+	border-color: #0094ff;
+}
+
+.jumbotron.jumbotron-fluid
+{
+	padding-top: 150px;
+}
