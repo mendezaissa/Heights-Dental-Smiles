@@ -12,4 +12,32 @@
 .jumbotron.jumbotron-fluid
 {
 	padding-top: 150px;
+	margin-bottom: 0px;
+}
+
+.jumbotron.jumbotron-fluid2
+{
+	background-color: #0094ff;
+	padding-top: 20px;
+	padding-bottom: 300px;
+}
+
+.btn-outline-success
+{
+	border-color: #0094ff;
+}
+
+.btn-outline-success:hover
+{
+	background-color: #0094ff;
+}
+
+#navbarDropdownMenuLink
+{
+	color: white;
+}
+
+.nav-link
+{
+	color: white;
 }
