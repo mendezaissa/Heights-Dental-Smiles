@@ -17,9 +17,13 @@
 
 .jumbotron.jumbotron-fluid2
 {
-	background-color: #0094ff;
-	padding-top: 20px;
-	padding-bottom: 300px;
+	background-image: url("dentist-tools.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 25px;
+	padding-bottom: 110px;
 }
 
 .btn-outline-success
@@ -40,4 +44,9 @@
 .nav-link
 {
 	color: white;
+}
+
+.card
+{
+	padding-top: 20px;
 }
