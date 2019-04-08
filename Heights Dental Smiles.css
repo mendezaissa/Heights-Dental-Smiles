@@ -1,4 +1,24 @@
 /*Navigation Bar Styling*/
+.navbar-brand
+{
+	margin-right: 0px;
+}
+
+.nav-item.active
+{
+	/*padding-right: 20px;*/
+}
+
+.nav-item.dropdown
+{
+	/*padding-right: 20px;*/
+}
+
+#navbarNavDropdown
+{
+	padding-left: 300px;
+}
+
 .btn-outline-success
 {
 	color: white;
@@ -25,19 +45,25 @@
 	color: white;
 }
 
+/*Carousel Styling*/
+.carousel.slide
+{
+	padding-top: 115px;
+}
+
 /*Welcoming Description Styling*/ 
 .jumbotron.jumbotron-fluid
 {
 	color: black;
 	background-color: white;
-	padding-top: 150px;
+	padding-top: 50px;
 	margin-bottom: 0px;
 }
 
 .display-4
 {
 	text-align: center;
-	color: #0094ff;
+	color: black;
 }
 
 .new1
@@ -67,6 +93,12 @@
 }
 
 /*Footer Styling*/
+.img-thumbnail
+{
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
 .page-footer.font-small.md-color.pt-4
 {
 	color: white;
@@ -94,4 +126,11 @@
   	text-decoration: none;
   	margin: 5px 2px;
   	border-radius: 100%;
+}
+
+hr{
+	display: block;
+	height: 1px;
+	border-top: 1px solid;
+	color: white;
 }

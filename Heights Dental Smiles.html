@@ -17,56 +17,11 @@
 </head>
 <body>
 
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Welcome to Heights Dental Smiles!</h1>
-      <hr class="new1">
-      <p class="lead">At the dental office of Dr. Susanna Zilberman, we hope you will enjoy the personalized attention you will receive to make you relaxed and comfortable in our lovely surroundings. We strive to not only create beautiful smiles but also healthy ones! Feel free to contact our office and schedule an appointment. We look forward to seeing you!</p>
-      <p class="lead">Why choose us?</p>
-      <p class="lead">At the dental office of Dr. Zilberman, we hope you will enjoy the personalized attention you will receive to make you relaxed and comfortable in our lovely surroundings. We strive to not only create beautiful Smiles but also healthy ones! Feel free to contact our office and schedule an appointment. We look forward to seeing you!</p>
-    </div>
-  </div>
-
-
-<!-- Carousel Starts-->
-<div class="container">
-
-<div class="col-md-12">
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Mia.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="family photo.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="Susanna.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-</div>
-
-</div>
-<!--Carousel Ends-->
-
 <!--Navigation Bar Starts -->
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <div class="container">
   <a class="navbar-brand" href="#"><img src="logo.png"></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,13 +71,48 @@
     </ul>
   </div>
 
-  <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
+</div>
 </nav>
 <!--Navigation Bar Ends -->
 
+<!--Carousel Starts-->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="picture1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="picture2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="picture3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--Carousel Ends-->
+
+<!--Welcoming Description Starts-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Welcome to Heights Dental Smiles!</h1>
+      <hr class="new1">
+      <h4 class="text-center"> Why choose us? </h4>
+      <p class="lead">At the dental office of Dr. Susanna Zilberman, we hope you will enjoy the personalized attention you will receive to make you relaxed and comfortable in our lovely surroundings. We strive to not only create beautiful smiles but also healthy ones! Feel free to contact our office and schedule an appointment. We look forward to seeing you!</p>
+
+      <p class="lead">At the dental office of Dr. Zilberman, we hope you will enjoy the personalized attention you will receive to make you relaxed and comfortable in our lovely surroundings. We strive to not only create beautiful Smiles but also healthy ones! Feel free to contact our office and schedule an appointment. We look forward to seeing you! This is sample text.</p>
+    </div>
+  </div>
+<!--Welcoming Description Ends-->
+
+<!--Featured Services Starts-->
   <div class="jumbotron jumbotron-fluid2">
     <div class="container">
       <h1 class="display-5">Featured Services</h1>
@@ -158,12 +148,9 @@
       </div>
     </div>
   </div>
+<!--Featured Services Ends-->
 
-
-
-
-
-<!-- Footer -->
+<!-- Footer Starts-->
 <footer class="page-footer font-small md-color pt-4">
 
     <!-- Footer Links -->
@@ -177,9 +164,8 @@
 
           <!-- Content -->
           <h5 class="font-weight-bold text-uppercase mb-4">Heights Dental Smiles</h5>
-          <p>Here you can use rows and columns here to organize your footer content.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate esse
-            quasi, veritatis totam voluptas nostrum.</p>
+          <hr>
+          <img src="logo.png" alt="..." class="img-thumbnail">
 
         </div>
         <!-- Grid column -->
@@ -191,6 +177,7 @@
 
           <!-- Links -->
           <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+          <hr>
 
           <ul class="list-unstyled">
             <li>
@@ -221,6 +208,7 @@
 
           <!-- Contact details -->
           <h5 class="font-weight-bold text-uppercase mb-4">Contact Us</h5>
+          <hr>
 
           <ul class="list-unstyled">
             <li>
@@ -246,6 +234,7 @@
 
           <!-- Social buttons -->
           <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+          <hr>
 
           <!-- Facebook
           <a type="button" class="btn-floating btn-fb">
@@ -271,39 +260,7 @@
     <!-- Copyright -->
 
   </footer>
-  <!-- Footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!-- Footer Ends-->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
