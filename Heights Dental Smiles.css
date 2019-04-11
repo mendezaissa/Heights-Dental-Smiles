@@ -1,4 +1,9 @@
 /*Navigation Bar Styling*/
+.navbar-nav
+{
+	padding-right: 40px;
+}
+
 .navbar-brand
 {
 	margin-right: 0px;
@@ -16,7 +21,7 @@
 
 #navbarNavDropdown
 {
-	padding-left: 300px;
+	/*padding-left: 300px;*/
 }
 
 .btn-outline-success
@@ -44,6 +49,7 @@
 {
 	color: white;
 }
+
 
 /*Carousel Styling*/
 .carousel.slide
@@ -119,9 +125,10 @@
 {
 	background-color: #3B5998;
 	color: white;
-	padding: 20px;
-  	font-size: 30px;
-  	width: 70px;
+	padding: 10px;
+  	font-size: 20px;
+  	width: 40px;
+  	height: 40px;
   	text-align: center;
   	text-decoration: none;
   	margin: 5px 2px;
