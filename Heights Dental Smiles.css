@@ -1,28 +1,33 @@
 /*Navigation Bar Styling*/
+.navbar.navbar-expand-lg
+{
+	background-color: #282828;
+}
+
+.fa.fa-google
+{
+	color: white;
+	padding: 10px;
+  	font-size: 20px;
+  	width: 40px;
+  	height: 40px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 100%;
+}
+
 .navbar-nav
 {
-	padding-right: 40px;
+	font-family: 'Rokkitt', serif;
+	font-size: 22px;
 }
 
 .navbar-brand
 {
-	margin-right: 0px;
+	margin-right: 300px;
 }
 
-.nav-item.active
-{
-	/*padding-right: 20px;*/
-}
-
-.nav-item.dropdown
-{
-	/*padding-right: 20px;*/
-}
-
-#navbarNavDropdown
-{
-	/*padding-left: 300px;*/
-}
 
 .btn-outline-success
 {
@@ -54,7 +59,7 @@
 /*Carousel Styling*/
 .carousel.slide
 {
-	padding-top: 115px;
+	padding-top: 0px;
 }
 
 /*Welcoming Description Styling*/ 
@@ -123,7 +128,6 @@
 
 .fa.fa-facebook
 {
-	background-color: #3B5998;
 	color: white;
 	padding: 10px;
   	font-size: 20px;
@@ -133,6 +137,11 @@
   	text-decoration: none;
   	margin: 5px 2px;
   	border-radius: 100%;
+}
+
+.fa:hover
+{
+	opacity: 0.6;
 }
 
 hr{
