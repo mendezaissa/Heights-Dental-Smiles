@@ -108,21 +108,46 @@
 	padding-top: 15px;
 }
 
-/*
-.display-4
+/*Why chose us Styling*/
+#why
+{
+	background-color: #282828;
+	color: #1E90FF;
+}
+
+.why.paragraph
 {
 	text-align: center;
-	color: black;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
-
-.new1
+.whychooseus
 {
-	border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	color: white;
+	font-size: 30px;
+	text-align: left;
 }
-*/
+
+.whyus
+{
+	text-align: left;
+	font-size: 16px;
+	color: white;
+}
+
+#reasonswhy
+{
+	padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+
 
 /*Featured Services Styling*/
 .jumbotron.jumbotron-fluid2
